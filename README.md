@@ -1,5 +1,5 @@
 
-## Configs 
+## 配置
 
 * `BOT_TOKEN`  - Get Bot Token From @BotFather
 
@@ -21,7 +21,7 @@
 
 * `START_PIC` - Start Message Photo. You Don't Need This! Just Skip
 
-## Botfather Commands
+## Botfather 命令
 ```
 start - 启动机器人活动检查
 view_thumb - 查看缩略图
@@ -32,9 +32,9 @@ del_caption - 删除自定义标题
 status - 检查机器人状态（仅限管理员）
 ```
 
-## Install
+## 安装
 ```
-# 拉取IAN-RENAME-BOT
+# 拉取YIAN-RENAME-BOT
 git clone https://github.com/zbaiicn/YIAN-RENAME-BOT.git
 
 # cd到项目
