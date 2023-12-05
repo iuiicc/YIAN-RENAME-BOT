@@ -33,17 +33,25 @@ status - 检查机器人状态（仅限管理员）
 ```
 
 ## Install
-
+```
+# 拉取IAN-RENAME-BOT
 git clone https://github.com/zbaiicn/YIAN-RENAME-BOT.git
 
+# cd到项目
 cd /root/YIAN-RENAME-BOT
 
+# 创建python虚拟环境
 python3 -m venv venv
 
+# 激活python虚拟环境
 source venv/bin/activate
 
+# 安装项目所需依赖
 pip install -r requirements.txt
 
+# 前端运行调试（Ctrl+C 停止）
 python bot.py
 
+# 后台运行项目
 nohup python bot.py &
+```
