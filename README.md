@@ -3,25 +3,25 @@ https://t.me/@YIAN_RENAME_BOT
 
 ## 配置
 
-* `BOT_TOKEN`  - Get Bot Token From @BotFather
+* `BOT_TOKEN` - 从 @BotFather 获取机器人令牌
 
-* `API_ID` - From my.telegram.org 
+* `API_ID` - 从 my.telegram.org 获取
 
-* `API_HASH` - From my.telegram.org
+* `API_HASH` - 从 my.telegram.org 获取
 
-* `WEBHOOK` - If Your Server Is Need Web Service! Value = `True` Else Value = `False`
+* `WEBHOOK` - 如果您的服务器需要 Web 服务，则值为 True，否则值为 False
 
-* `ADMIN` - AUTH Or Bot Controllers Id's Multiple Id Use Space To Split 
+* `ADMIN` - AUTH 或机器人控制器的 ID，多个 ID 请使用空格分隔
 
-* `DB_URL`  - Mongo Database URL From https://cloud.mongodb.com
+* `DB_URL` - 从 https://cloud.mongodb.com 获取的 MongoDB 数据库 URL
 
-* `DB_NAME`  - Your Database Name From Mongodb. 
+* `DB_NAME` - 从 MongoDB 获取的数据库名称
 
-* `FORCE_SUB` - Your Force Sub Channel Username Without @
+* `FORCE_SUB` - 强制订阅频道的用户名，不需要 @
 
-* `LOG_CHANNEL` - Bot Logs Sending Channel. If You Don't Need This To Remove This Variable In Your Server
+* `LOG_CHANNEL` - 用于发送机器人日志的频道。如果您不需要，请在您的服务器中删除此变量
 
-* `START_PIC` - Start Message Photo. You Don't Need This! Just Skip
+* `START_PIC` - 启动消息照片。如果您不需要，可以跳过此项
 
 ## Botfather 命令
 ```
