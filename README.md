@@ -11,7 +11,7 @@ https://t.me/@YIAN_RENAME_BOT
 
 * `WEBHOOK` - 如果您的服务器需要 Web 服务，则值为 True，否则值为 False
 
-* `ADMIN` - AUTH 或机器人控制器的 ID，多个 ID 请使用空格分隔
+* `ADMIN` - 管理员的 ID，多个 ID 请使用空格分隔
 
 * `DB_URL` - 从 https://cloud.mongodb.com 获取的 MongoDB 数据库 URL
 
