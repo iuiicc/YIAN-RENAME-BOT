@@ -2,6 +2,7 @@
 https://t.me/@YIAN_RENAME_BOT
 
 ## 配置
+* `Python` - 版本在`3.8`及以上（升级命令在下方）
 
 * `BOT_TOKEN` - 从 @BotFather 获取机器人令牌
 
@@ -56,4 +57,42 @@ python bot.py
 
 # 后台运行项目
 nohup python bot.py &
+```
+## Python 版本在 3.8 及以上
+
+# 在 Ubuntu 上升级 Python：
+```
+# 更新系统
+sudo apt update
+sudo apt upgrade
+
+# 安装新版本的 Python（假设您要安装 Python 3.8）
+sudo apt install python3.8
+
+# 安装 pip
+sudo apt install python3-pip
+
+# 更新 pip
+python3.8 -m pip install --upgrade pip
+
+# 更新虚拟环境中的 Python 版本
+virtualenv -p python3.8 venv
+```
+
+# 在 CentOS 上升级 Python：
+```
+# 安装 EPEL 存储库
+sudo yum install epel-release
+
+# 安装新版本的 Python（假设您要安装 Python 3.8）
+sudo yum install python38
+
+# 安装 pip
+sudo yum install python38-pip
+
+# 更新 pip
+python3.8 -m pip install --upgrade pip
+
+# 更新虚拟环境中的 Python 版本
+virtualenv -p python3.8 venv
 ```
