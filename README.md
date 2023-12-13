@@ -58,7 +58,6 @@ python bot.py
 # 后台运行项目
 nohup python bot.py &
 ```
-## Python 版本在 3.8 及以上
 
 # 在 Ubuntu 上升级 Python：
 ```
