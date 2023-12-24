@@ -19,7 +19,7 @@ async def rename_start(client, message):
     file = getattr(message, message.media.value)
     filename = file.file_name  
     if file.file_size > 2000 * 1024 * 1024:
-         return await message.reply_text("抱歉，此机器人不支持上传大于2GB的文件（官方API限制）")
+         return await message.reply_text("抱歉，此机器人不支持上传大于2GB的文件（官方API限制） ")
 
     try:
         await message.reply_text(
